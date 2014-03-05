@@ -20,22 +20,20 @@ mainApp.config([
 
 mainApp.filter('filterAndReduce', function () {
     return function (cards, count, query) {
-        var temp = cards.slice(0, count);
-
         if (!query) {
-            return temp;
+            return cards.slice(0, count);
         }
 
         var filtered = [];
 
         query = query.toLowerCase();
 
-        angular.forEach(temp, function (card) {
+        angular.forEach(cards, function (card) {
             if (card.nameEn.toLowerCase().indexOf(query) !== -1) {
                 filtered.push(card);
             }
         });
 
-        return filtered;
+        return filtered.slice(0, count);
     };
 });

@@ -3,12 +3,11 @@ describe('Cards controllers', function () {
     beforeEach(module('cardsServices'));
 
     describe('cardsListController', function () {
-        var scope, ctrl, httpBackend;
+        var scope, ctrl, $httpBackend;
 
-        beforeEach(inject(function ($httpBackend, $rootScope, $controller) {
-            httpBackend = $httpBackend;
-            httpBackend.expectGET('/all.json').respond(function () {
-                return [
+        beforeEach(inject(function (_$httpBackend_, $rootScope, $controller) {
+            $httpBackend = _$httpBackend_;
+            $httpBackend.expectGET('/all.json').respond([
                     {
                         expansions: [
                             {
@@ -22,9 +21,7 @@ describe('Cards controllers', function () {
                                 ]
                             }
                         ]
-                    }]
-                ;
-            });
+                    }]);
 
             scope = $rootScope.$new();
             ctrl = $controller('cardsListController', { $scope: scope });
@@ -32,7 +29,7 @@ describe('Cards controllers', function () {
 
         it('should return 2 cards', function () {
             expect(scope.cards).toBeUndefined();
-            httpBackend.flush();
+            $httpBackend.flush();
             expect(scope.cards.length).toBe(2);
 
         });
