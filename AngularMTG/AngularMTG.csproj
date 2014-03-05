@@ -60,6 +60,7 @@
     <None Include="all.json" />
     <Content Include="jasmine\angular-mocks.js" />
     <Content Include="jasmine\MIT.LICENSE" />
+    <Content Include="Slide\Building a Single Page Application with ASP.NET and Angular.js.pptx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
