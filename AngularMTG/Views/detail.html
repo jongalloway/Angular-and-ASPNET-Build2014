@@ -1,0 +1,13 @@
+﻿<section>
+    <img id="bigImage" ng-src="{{'http://www.urzagatherer.com/cards/' + card.picturePath}}" />
+    <div id="detailsPane">
+        <div class="rowHeader">Name:</div>
+        <div class="rowData">{{card.nameEn}}</div>
+        <div class="rowHeader">Type:</div>
+        <div class="rowData">{{card.typeEn}}</div>
+        <div class="rowHeader">Text:</div>
+        <textarea class="rowData textEdit" rows="5" ng-model="card.textEn" ng-change="update()"></textarea>
+        <div class="rowHeader">Flavor:</div>
+        <div class="rowData">{{card.flavorEn}}</div>
+    </div>
+</section>
