@@ -57,10 +57,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="all.json" />
+    <None Include="Step 6\all.json" />
     <Content Include="jasmine\angular-mocks.js" />
     <Content Include="jasmine\MIT.LICENSE" />
-    <Content Include="Slide\Building a Single Page Application with ASP.NET and Angular.js.pptx" />
+    <Content Include="Slides\Building a Single Page Application with ASP.NET and Angular.js.pptx" />
+    <Content Include="Step 3\all.json" />
+    <Content Include="Step 5\angular-resource.min.js" />
+    <Content Include="Step 5\angular.min.js" />
+    <Content Include="Step 5\app.js" />
+    <Content Include="Step 5\cardsControllers.js" />
+    <Content Include="Step 5\index.css" />
+    <Content Include="Step 5\index.html" />
+    <Content Include="Step 5\localService.js" />
+    <Content Include="Step 4\all.json" />
+    <Content Include="Step 5\all.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -69,14 +79,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="angular-animate.min.js" />
-    <Content Include="angular-resource.min.js" />
-    <Content Include="angular-route.min.js" />
-    <Content Include="angular.min.js" />
-    <Content Include="cardsControllers.js" />
-    <Content Include="index.css" />
-    <Content Include="index.html" />
-    <Content Include="app.js" />
+    <Content Include="Step 6\angular-animate.min.js" />
+    <Content Include="Step 6\angular-resource.min.js" />
+    <Content Include="Step 6\angular-route.min.js" />
+    <Content Include="Step 6\angular.min.js" />
+    <Content Include="Step 6\cardsControllers.js" />
+    <Content Include="Step 6\index.css" />
+    <Content Include="Step 6\index.html" />
+    <Content Include="Step 6\app.js" />
     <Content Include="jasmine\lib\jasmine-2.0.0\boot.js" />
     <Content Include="jasmine\lib\jasmine-2.0.0\console.js" />
     <Content Include="jasmine\lib\jasmine-2.0.0\jasmine-html.js" />
@@ -85,9 +95,32 @@
     <Content Include="jasmine\lib\jasmine-2.0.0\jasmine_favicon.png" />
     <Content Include="jasmine\SpecRunner.html" />
     <Content Include="jasmine\spec\controllerSpecs.js" />
-    <Content Include="localService.js" />
-    <Content Include="Views\detail.html" />
-    <Content Include="Views\list.html" />
+    <Content Include="Step 6\localService.js" />
+    <Content Include="Step 0\index.css" />
+    <Content Include="Step 0\index.html" />
+    <Content Include="Step 6\Views\detail.html" />
+    <Content Include="Step 6\Views\list.html" />
+    <Content Include="Step 1\angular.min.js" />
+    <Content Include="Step 1\index.css" />
+    <Content Include="Step 1\index.html" />
+    <Content Include="Step 2\angular.min.js" />
+    <Content Include="Step 1\cardsControllers.js" />
+    <Content Include="Step 2\app.js" />
+    <Content Include="Step 2\cardsControllers.js" />
+    <Content Include="Step 2\index.css" />
+    <Content Include="Step 2\index.html" />
+    <Content Include="Step 3\angular.min.js" />
+    <Content Include="Step 3\app.js" />
+    <Content Include="Step 3\cardsControllers.js" />
+    <Content Include="Step 3\index.css" />
+    <Content Include="Step 3\index.html" />
+    <Content Include="Step 4\angular-resource.min.js" />
+    <Content Include="Step 4\angular.min.js" />
+    <Content Include="Step 4\app.js" />
+    <Content Include="Step 4\cardsControllers.js" />
+    <Content Include="Step 4\index.css" />
+    <Content Include="Step 4\index.html" />
+    <Content Include="Step 4\localService.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

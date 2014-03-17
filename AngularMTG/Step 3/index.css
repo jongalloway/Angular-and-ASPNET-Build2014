@@ -1,0 +1,104 @@
+﻿html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Segoe UI, Segoe WP;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #6EDCAB;
+    width: 100%;
+    text-align: center;
+}
+
+    header .text {
+        display: inline-block;
+        padding: 18px 30px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: transparent;
+        -webkit-transition: background-color 0.25s;
+        -moz-transition: background-color 0.25s;
+        transition: background-color 0.25s;
+    }
+
+nav.color .color,
+nav.expansion .expansion {
+    background-color: #FFB91D;
+}
+
+.filter {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+}
+
+#cardsList {
+    margin: 20px;
+}
+
+img.small {
+    width: 140px;
+    display: block;
+    border: none;
+    float: left;
+    -webkit-transition: -webkit-transform 0.1s ease;
+    -moz-transition: -moz-transform 0.1s ease;
+    transition: transform 0.1s ease;
+}
+
+    img.small:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+#bigImage {
+    position: absolute;
+    max-width: 40%;
+    height: 100%;
+}
+
+#detailsPane {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    width: 60%;
+    left: 40%;
+}
+
+.rowHeader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rowData {
+    font-size: 18px;
+}
+
+.textEdit {
+    width: 80%;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
