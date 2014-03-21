@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html ng-app="mainApp" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MTG Browser</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="angular.min.js"></script>
+    <script src="angular-resource.min.js"></script>
+    <script src="app.js"></script>
+    <script src="cardsControllers.js"></script>
+    <script src="localService.js"></script>
+</head>
+<body ng-controller="cardsListController">
+    <div id="cardsList">
+        <div ng-repeat="card in cards" class="cardItem">
+            Card {{card.id}}
+        </div>
+    </div>
+</body>
+</html>
