@@ -1,0 +1,19 @@
+﻿<header>
+    <div class="text">MTG Browser</div>
+</header>
+<form class="filter" name="filterForm">
+    Filter: <input ng-model="query"> - Max count: <input type="number" name="cardsCount" ng-model="cardsCount" required min="0" max="500">
+    <span class="error" ng-show="filterForm.cardsCount.$error.required">
+        Required!
+    </span>
+    <span class="error" ng-show="filterForm.cardsCount.$error.number">
+        Not valid number!
+    </span>
+</form>
+<section>
+    <div id="cardsList">
+        <div ng-repeat="card in cards | filterAndReduce:cardsCount:query" class="cardItem">
+            <a href="#/cards/{{card.id}}"><img class="small" ng-src="{{'http://www.urzagatherer.com/cards/' + card.picturePath}}" /></a>
+        </div>
+    </div>
+</section>

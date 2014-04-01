@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step6A", "AngularWebApi\Step6A.csproj", "{4E2E67D4-F0CB-4DC1-99AE-A3B388FF6F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step1A", "Step1A\Step1A.csproj", "{946D395B-CD4A-43F5-BF19-45C9C6BBDC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step5A", "Step5A\Step5A.csproj", "{4E29A879-0780-47E0-8F93-47F9C56B9196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2E67D4-F0CB-4DC1-99AE-A3B388FF6F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2E67D4-F0CB-4DC1-99AE-A3B388FF6F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2E67D4-F0CB-4DC1-99AE-A3B388FF6F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2E67D4-F0CB-4DC1-99AE-A3B388FF6F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946D395B-CD4A-43F5-BF19-45C9C6BBDC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946D395B-CD4A-43F5-BF19-45C9C6BBDC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946D395B-CD4A-43F5-BF19-45C9C6BBDC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946D395B-CD4A-43F5-BF19-45C9C6BBDC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E29A879-0780-47E0-8F93-47F9C56B9196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E29A879-0780-47E0-8F93-47F9C56B9196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E29A879-0780-47E0-8F93-47F9C56B9196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E29A879-0780-47E0-8F93-47F9C56B9196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
