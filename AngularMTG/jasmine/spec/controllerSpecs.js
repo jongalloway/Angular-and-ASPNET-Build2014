@@ -7,7 +7,7 @@ describe('Cards controllers', function () {
 
         beforeEach(inject(function (_$httpBackend_, $rootScope, $controller) {
             $httpBackend = _$httpBackend_;
-            $httpBackend.expectGET('/all.json').respond([
+            $httpBackend.expectGET('all.json').respond([
                     {
                         expansions: [
                             {
