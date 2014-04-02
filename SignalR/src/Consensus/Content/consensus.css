@@ -1,0 +1,82 @@
+﻿body {
+  background: url('data:image/gif;base64,R0lGODlh+gABAPcAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA+gABAAAIGwABCBxIsKDBgwgTKlzIsKHDhxAjSpxIseLEgAA7') /*/Content/images/background.gif*/;
+  *background: url(/Content/images/background.gif);
+  /* For IE 6 and 7 */
+
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+body.hide-room {
+  background-image: none;
+}
+body.hide-room .container-fluid {
+  display: none;
+}
+.playing-field {
+  margin-right: 250px;
+}
+.playing-field h2 {
+  display: inline-block;
+}
+.playing-field > .btn {
+  margin: 10px 5px;
+}
+.players {
+  position: absolute;
+  width: 250px;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+}
+.players ul {
+  margin: 0;
+  padding: 0;
+}
+.players ul li {
+  list-style: none;
+}
+.players ul li.me:after {
+  content: "me";
+  font-weight: bold;
+  font-size: smaller;
+  color: #ff4e4e;
+}
+.topic {
+  font-size: 35px !important;
+  height: 60px !important;
+  line-height: 60px !important;
+}
+.card {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 210px;
+  border: 5px double black;
+  border-radius: 8px;
+  margin-right: 1em;
+  text-align: center;
+}
+.card .value {
+  font-size: 75px;
+  display: inline-block;
+  margin-top: 70px;
+}
+.card .name {
+  bottom: 5px;
+}
+.card.card-hidden .value {
+  display: none;
+}
+.card.card-selected {
+  background-image: url(/Content/images/green-check.png);
+  -moz-background-size: 100px 140px;
+  -o-background-size: 100px 140px;
+  -webkit-background-size: 100px 140px;
+  background-size: 100px 140px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
