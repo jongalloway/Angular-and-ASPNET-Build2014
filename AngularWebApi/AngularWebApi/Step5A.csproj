@@ -292,9 +292,8 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\cardsControllers.js" />
+    <Content Include="Scripts\app\localService.js" />
     <Content Include="Scripts\app\remoteService.js" />
-    <Content Include="Scripts\app\Views\detail.html" />
-    <Content Include="Scripts\app\Views\list.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />

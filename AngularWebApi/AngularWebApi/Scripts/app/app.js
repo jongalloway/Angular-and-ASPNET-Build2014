@@ -1,22 +1,4 @@
-﻿var mainApp = angular.module('mainApp', ['ngRoute', 'ngAnimate', 'cardsControllers', 'cardsServices']);
-
-mainApp.config([
-    '$routeProvider',
-    function($routeProvider) {
-        $routeProvider.
-            when('/cards', {
-                templateUrl: '/Scripts/app/Views/list.html',
-                controller: 'cardsListController'
-            }).
-            when('/cards/:cardId', {
-                templateUrl: '/Scripts/app/Views/detail.html',
-                controller: 'cardDetailController'
-            }).
-            otherwise({
-                redirectTo: '/cards'
-            });
-    }
-]);
+﻿var mainApp = angular.module('mainApp', ['cardsControllers', 'cardsServices']);
 
 mainApp.filter('filterAndReduce', function () {
     return function (cards, count, query) {
