@@ -1,0 +1,37 @@
+5A - Hooking up to server data (Web API)
+6A - Update for routing and views
+
+7 - SignalR
+Jasmine
+Deploy
+
+5A - Web API
+6A - Update in Web API
+Could still use local storage
+
+
+SignalR update on card, updates another
+
+
+
+
+Serving HTML
+	Routing
+		Angular routing
+		Server-side routing
+	Serving dependencies
+
+Serving scripts
+	Min-safe Angular (JSON syntax)
+
+Directives
+	Like server controls
+	
+Hanselman slide - VMs
+	
+What goes on client / server?
+	Client
+		As much as possible
+	Server
+		Logic you don't want public
+		Validation
