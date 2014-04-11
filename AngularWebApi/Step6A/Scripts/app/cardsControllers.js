@@ -2,21 +2,18 @@
 
 cardsControllers.controller('cardsListController', ['$scope', '$http', 'Cards', function ($scope, $http, Cards) {
     var cards = [];
-    Cards.query(function(blocks) {
-        angular.forEach(blocks, function(block) {
-            angular.forEach(block.expansions, function(expansion) {
-                angular.forEach(expansion.cards, function(card) {
-                    cards.push(card);
-                    if (localStorage) {
-                        var savedInfo = localStorage.getItem(card.id);
-                        if (savedInfo !== null) {
-                            card.textEn = savedInfo;
-                        }
-                    }
-                });
-            });
-        });
 
+    Cards.query(function (cards) {
+        angular.forEach(cards, function (card) {
+            cards.push(card);
+
+            if (localStorage) {
+                var savedInfo = localStorage.getItem(card.id);
+                if (savedInfo !== null) {
+                    card.textEn = savedInfo;
+                }
+            }
+        });
         $scope.cards = cards;
     });
 

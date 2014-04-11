@@ -13,7 +13,8 @@ namespace AngularWebApi
         public static void Register(HttpConfiguration config)
         {
             var formatter = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
-            formatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            formatter.SerializerSettings.ContractResolver = 
+                new CamelCasePropertyNamesContractResolver();
 
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
